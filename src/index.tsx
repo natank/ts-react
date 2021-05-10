@@ -1,11 +1,12 @@
 import ReactDOM from 'react-dom';
-import UserSearch from './state/UserSearch'
+import EventComponent from './events/eventComponent'
 import React from 'react'
 
 export default function App() {
+
   return (
     <div>
-      <UserSearch />
+      <EventComponent />
     </div>
   )
 }
